@@ -1,0 +1,47 @@
+/*for the forms the sign up and sign in */
+#signin 
+{
+	background-color: rgba(11, 11, 41, 0.911);
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+		}
+/*resizes the jumbotron*/
+#resize{ height: 100px;}
+/*for the container/area below the jumbotron*/
+#BackgroundColor{ background-color: grey;}
+ /*for the index page background picture to overide bootstap*/
+#BackgroundImage {
+	background-image: url(Image/blue.jpg);
+	background-size: cover;
+		}
+		/*for the sign in form;the cor was too dull */
+#Form{color: white;}
+/*the remember me checkbox was too dull*/
+#RememberMe{color:white;}
+/*so that text inside forms esp lables can pop*/
+#Text{ color:white;}
+/*i might need an image for one of this pages*/
+body{
+	background-image: 
+}
+/*for the input style in the sign up form*/
+#myinput{
+    border: 2px solid
+    rgb(45, 59, 70);
+    border-radius: 10px;
+    outline: none;
+    background-color:whitesmoke;
+    width:80%;
+    height:20px;
+}
+/*#NavColor{background-color: grey;
+text-align: center;}
+*/
+
+/*#floats{float: right;}*/
