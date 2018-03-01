@@ -29,7 +29,7 @@
 /*for the container/area below the jumbotron*
 #BackgroundColor{ background-color: grey;}
  /*for the index page background picture to overide bootstap*/
-#ground {background-image:url(..static/image.jpg);
+#ground {background-image:url(../static/image.jpg);
 	     background-size: cover;
 		}
 /*for the sign in form;the cor was too dull */
