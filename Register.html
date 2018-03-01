@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <html>
 <head>
 	<title>Register business</title>
 	<meta charset = "utf-8">
 	<meta name = "viewport" content = "width = device-width, initial-scale=1">
 	<link  href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel = "stylesheet">
-	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/Style.css">
 </head>
-<body>
-	<div class="jumbotron text-center">
+<body id="bodycolor">
+	<div id="resize" class="jumbotron text-center">
 		<h2>LETS CONNECT</h2>
-		<
 	</div>
-
+	<!-- add a vertical nav bar -->
+	<div >
+		<nav id="vertical" class="navbar bg-dark">
+			<ul class="navbar-nav">
+				<a id="brand" class="navbar-brand" href="#">LetsConnect</a></li><br> 
+				<li class="<nav-item"><a href="home.html">HOME</a></li><br>
+				<li class="nav-item"><a class="nav-link" href="Home.html"> ABOUT</a></li><br>
+				<li class="nav-item"><a class="nav-link" href="SignUp.html">SIGN UP</a></li>
+			</ul>
+		</nav>	
+	</div>
+	<!-- business registration form  -->
+	    <div id="signin" >
+			<form  action ="#" class="container">
+		        <h3 id="Text">Register your business here </h3>
+		        <br>
+		        <label id="Text" for = "name"><b> Business name :</b></label>
+		        <input id="myinput" type = "text" name="name"><br>
+		        <label id="Text" for = "biz"><b>Business location:</b></label>
+		        <input id="myinput" type ="text" name="biz"><br>
+		        <label id="Text" for ="email"><b> Email :</b></label>
+		        <input id="myinput" type ="email" name "email"><br>
+		        <label id="Text" for= "category"><b> Business category:<b></label>
+		            <select id="category" name="Business category">
+		            	<option value="service business">Service Business</option>
+		            	<option value="merchandising business">Merchandising Business</option>
+		            	<option value="manufacturing business">Manufacturing Business</option>
+		            	<option value="hybrid business">Hybrid Business</option>
+		            </select><br><br>
+		        <button type="submit" class="btn btn-sm -primary "> Submit </button><br>
+			</form>
+	    </div>
 </body>
 </html>

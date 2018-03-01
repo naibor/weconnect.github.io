@@ -1,4 +1,4 @@
-/*for the forms the sign up and sign in */
+/*for the forms the sign up,registration and sign in */
 #signin 
 {
 	background-color: rgba(11, 11, 41, 0.911);
@@ -9,27 +9,36 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
-
 		}
+/*adjusting the nav bar*/
+#vertical{ 
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            display: block;
+         }
+#brand{ color: white;
+}
+#navba{ width:100px;
+        background-color: grey;
+        list-style-type: none;
+
+}
 /*resizes the jumbotron*/
 #resize{ height: 100px;}
-/*for the container/area below the jumbotron*/
+/*for the container/area below the jumbotron*
 #BackgroundColor{ background-color: grey;}
  /*for the index page background picture to overide bootstap*/
-#BackgroundImage {
-	background-image: url(Image/blue.jpg);
-	background-size: cover;
+#ground {background-image:url(static/image.jpg);
+	     background-size: cover;
 		}
-		/*for the sign in form;the cor was too dull */
+/*for the sign in form;the cor was too dull */
 #Form{color: white;}
 /*the remember me checkbox was too dull*/
 #RememberMe{color:white;}
 /*so that text inside forms esp lables can pop*/
 #Text{ color:white;}
-/*i might need an image for one of this pages*/
-body{
-	background-image: 
-}
+
 /*for the input style in the sign up form*/
 #myinput{
     border: 2px solid
@@ -39,9 +48,7 @@ body{
     background-color:whitesmoke;
     width:80%;
     height:20px;
-}
-/*#NavColor{background-color: grey;
-text-align: center;}
-*/
+     }
 
-/*#floats{float: right;}*/
+#bodycolor{background-color: grey;
+}
