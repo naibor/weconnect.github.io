@@ -6,7 +6,7 @@
     padding: 10px;
     margin: 10px;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
 		}
@@ -30,9 +30,14 @@
 #BackgroundColor{ background-color: grey;}
  /*for the index page background picture to overide bootstap*/
 #ground {background-image:url(../static/images.jpg);
-	     background-size: cover;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         margin: 0;
+         height: 100%;
+        
 		}
-/*for the sign in form;the cor was too dull */
+/*for the sign in form;the color was too dull */
 #Form{color: white;}
 /*the remember me checkbox was too dull*/
 #RememberMe{color:white;}
@@ -52,3 +57,11 @@
 
 #bodycolor{background-color: grey;
 }
+/* for the buttons in sign in */
+#button{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 16px;
+}
+/* styling the heading */
+#myhead{ text-align: center;}

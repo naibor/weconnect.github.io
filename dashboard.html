@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
+
 <head>
-	<title>dashboard</title>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width = device-width, initial-scale=1">
-	<link  href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel = "stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>categories business</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale=1">
+	<!-- bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- custom CSS -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<!-- font awesome CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
 </head>
 <body id="bodycolor">
-	<div class="jumbotron text-center" >
-		<h2>LETS CONNECT</h2>
-	</div>
-	<!-- navbar -->
 	<div>
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark"><a class="navbar-brand" href="#">LetsConnect</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-secondary bg-faded"> <a class="navbar-brand" href="#">LetsConnect</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li><br>
-					<li class="nav-item"><a class="nav-link" href="index.html">Sign Out</a></li><br>
-					<li class="nav-item"><a class="nav-link" href="categories.html">Catalogue</a></li>
+					<li class="nav-item" class="collapsibleNavbar"><a class="nav-link" href="register.html">Register</a></li>
+					<li class="nav-item" class="collapsibleNavbar" ><a class="nav-link" href="#">Contact Us</a></li><br>
+					<li class="nav-item" class="collapsibleNavbar"><a class="nav-link" href="index.html">Sign Out</a></li><br>
+					<li class="nav-item" class="collapsibleNavbar"><a class="nav-link" href="categories.html">Catalogue</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div><br>
-	<div class="flex container">
-		<aside class="float-right">
-			<!-- <p>about your business</p> -->
-		</aside>
-	<div>
-		<nav id="vertical" class="navbar bg-dark">
-			<ul class="navbar-nav">
-				<li class="<nav-item"><a class="nav-link" href="home.html">HOME</a></li><br>
-				<li class="<nav-item"><a href="#">PROFILE</a></li><br>
-				<li class="<nav-item"><a href="#">SETTINGS</a></li><br>
-				<li class="<nav-item"><a href="#">LOG OUT</a></li><br>
-				<li class="<nav-item"><a href="#">edit business</a></li><br>
-				<li class="<nav-item"><a href="#">delete account</a></li><br>
-			</ul>
-		</nav>	
-	<!-- your reviews -->
-	<footer class="well well-lg">
-		<div class="form-group">
-			<span class="border border -botton-0">
-				<label for="reviews"> Reviews:</label>
-				<textarea class="form-control" rows="5" id="comment"></textarea>			
-			</span>
+	<h2>LETS CONNECT</h2>
+<!-- add a column and row -->
+	<div class="jumbotron">
+		<!-- <div class="container"> -->
+			<div class="row">
+				<div class="col-xl-3">
+					<div class="well">
+						<h3>Profile</h3>
+							<ul>
+								<!-- add links -->
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="well">
+						<h3>LISA'S PEPPER </h3>
+						<p>Your safety is your priority.Spray them away.</p>
+					</div>
+					<div>
+						<!-- add an image -->
+						<img src="">
+					</div>
+				</div>
+				<div class="col-xl-3">
+					<div class="well">
+						<h3>contact details</h3>
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-	</footer>
+	<!-- </div> -->
+<!-- your reviews -->
+	<div id="bodycolor">
+		<footer class="well well-md">
+			<div class="form-group">
+				<span class="border border -botton-0">
+					<label for="reviews"> Reviews:</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>			
+				</span>
+			</div>
+		</footer>
 	</div>
-</div>
-
-
-
 </body>
 </html>

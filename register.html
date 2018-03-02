@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
+
 <head>
-	<title>Register business</title>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width = device-width, initial-scale=1">
-	<link  href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel = "stylesheet">
+	<title>LetsConnect</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale=1">
+	<!-- bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- custom CSS -->
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<!-- font awesome CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
 </head>
+
 <body id="bodycolor">
-	<div id="resize" class="jumbotron text-center">
+	<header class="navbar navbar-toggleable-md navbar-dark bg-secondary bg-faded"><a class="navbar-brand" href="#">LetsConnect</a>
+		<nav class="container w-100">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">LetsConnect</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- heading -->
+	<div id="myhead">
+		<!-- add font and change color -->
 		<h2>LETS CONNECT</h2>
-	</div>
-	<!-- add a vertical nav bar -->
-	<div >
-		<nav id="vertical" class="navbar bg-dark">
-			<ul class="navbar-nav">
-				<a id="brand" class="navbar-brand" href="#">LetsConnect</a></li><br> 
-				<li class="<nav-item"><a href="home.html">HOME</a></li><br>
-				<li class="nav-item"><a class="nav-link" href="home.html"> ABOUT</a></li><br>
-				<li class="nav-item"><a class="nav-link" href="signup.html">SIGN UP</a></li>
-			</ul>
-		</nav>	
+		<p>
+			Lets you connect with your client and competition.Grow your business through feedback.
+		</p>
 	</div>
 	<!-- business registration form  -->
 	    <div id="signin" >
 			<form  action ="#" class="container">
-		        <h3 id="Text">Register your business here </h3>
+		        <h4 id="Text">Register your business below </h4>
 		        <br>
-		        <label id="Text" for = "name"><b> Business name :</b></label>
+		        <label id="Text" for = "name"><b> Business name :</b></label><br>
 		        <input id="myinput" type = "text" name="name"><br>
-		        <label id="Text" for = "biz"><b>Business location:</b></label>
+		        <label id="Text" for = "biz"><b>Business location:</b></label><br>
 		        <input id="myinput" type ="text" name="biz"><br>
-		        <label id="Text" for ="email"><b> Email :</b></label>
+		        <label id="Text" for ="email"><b> Email :</b></label><br>
 		        <input id="myinput" type ="email" name "email"><br>
-		        <label id="Text" for= "category"><b> Business category:<b></label>
+		        <label id="Text" for= "category"><b> Business category:<b></label><br>
 		            <select id="category" name="Business category">
 		            	<option value="service business">Service Business</option>
 		            	<option value="merchandising business">Merchandising Business</option>
@@ -43,6 +63,6 @@
 		            </select><br><br>
 		        <button type="submit" class="btn btn-sm -primary "> Submit </button><br>
 			</form>
-	    </div>
+		</div>
 </body>
 </html>
