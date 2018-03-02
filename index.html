@@ -2,45 +2,66 @@
 <html lang="en">
 <html>
 <head>
-	<title>We Connect </title>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width = device-width, initial-scale=1">
-	<link  href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel = "stylesheet">
-	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <title>LetsConnect</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <!-- bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom CSS -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- font awesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
 </head>
-<body id="ground">
-	<div id="resize" class="jumbotron text-center">
-		<h1>LETS CONNECT.</h1><br>
-		<!-- horizontalnavigation bar -->
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<a class="navbar-brand" href="#">letsconnect</a>
-			<ul class="navbar-nav">
-				<li class="nav-item"><a class="nav-link" href="home.html"> ABOUT</a></li>
-				<li class="nav-item"><a class="nav-link" href="signup.html">SIGN UP</a></li>
-			</ul>
-		</nav>		
-	<div > 
-		<!-- sign in form -->
-		<div id="signin">
-			<form id="Form" action="#">
-				<p>sign in below</p>
-				<div class="form-group">
-					<label for="username">Username:</label>
-					<input type="text" class="form-control"  id="username" placeholder="Enter Username" name="Username">
-				</div>
-				<div class="form-group">
-					<label for="pwd">Password:</label>
-					<input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd">	
-				</div>
-				<div id="RememberMe" class="form-check">
-					<label class="form-check-input">
-						<input class="form-check-input" type="checkbox" name="remember">Remember me </label>
-				</div><br>
-				<div>
-					<button type="submit" class="btn btn-primary"> Submit </button>
-			    </div>
-			</form>
-		</div>
-	</div>
-</body>
-</html>
+
+<body id="bodycolor">
+    <header class="navbar navbar-toggleable-md navbar-dark bg-primary bg-faded"><a class="navbar-brand" href="#">LetsConnect</a>
+        <nav class="container w-100">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- heading -->
+    <div id="myhead" >
+        <!-- add font and change color -->
+        <h2>LETS CONNECT</h2>
+        <p>
+            Lets you connect with your client and competition.Grow your business through feedback.
+        </p>
+    </div>
+    <!-- signin section -->
+    <div id="signin">
+        <form id="Form" action="#">
+            <p>Sign in below:</p>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter Username" name="Username">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-sm btn-primary"> Submit </button><br>
+            </div>
+            <div>
+                <p>New here? Sign up below.</p>
+                <button type="button" class="btn btn-secondary btn-sm btn-block"><a id="button"href="#">SIGN UP</a></button>
+                <button type="button" class="btn btn-danger btn-sm btn-block"><a id="button" href="#">SIGN UP WITH GOOGLE</a></button>
+                <button type="button" class="btn btn-primary btn-sm btn-block"><a id="button" href="#">SIGN UP WITH FACEBOOK</a></button>
+            </div>
+        </form>
+    </div>
+

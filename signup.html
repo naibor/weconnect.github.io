@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
+
 <head>
-	<title>Sign Up</title>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width = device-width, initial-scale=1">
+	<title>LetsConnect</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale=1">
+	<!-- bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- custom CSS -->
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-	<link  href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel = "stylesheet">
+	<!-- font awesome CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
 </head>
-<body id="BackgroundColor">
-	<!-- <div class="container"> -->
-		<div id ="resize" class="jumbotron text-center">
-			<h1>LETS CONNECT</h1>
-				<nav id="NavColor" class="navbar navbar-expand-sm bg-dark navbar-dark">
-					<a class="navbar-brand" href="#">letsconnect</a>
-					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="home.html"> ABOUT</a></li>
-					</ul>
-				</nav>		
-			<div id="signin">
-				<form  action ="#" class="container">
-		            <h3 id="Text">Sign Up here </h3><br>
-		            <label id="Text" for = "name"><b> Name :</b></label>
-		            <input id="myinput" type = "text" name="name"><br>
-		            <label id="Text" for = "username"><b> Username:</b></label>
-		            <input id="myinput" type ="text" name="username"><br>
-		            <label id="Text" for ="email"><b> email :</b></label>
-		            <input id="myinput" type ="email" name "email"><br>
-		            <label id="Text" for = "pwd" ><b> password:</b></label>
-		            <input id="myinput" type ="password" name="pwd"><br>
-		            <label id="Text" for "pwd"><b> confirm password:</b></label>
-		            <input id="myinput" type ="password" name="pwd"><br>
-		            <button type="submit" class="btn btn-primary"> Submit </button><br>
-				</form>
+
+<body id="bodycolor">
+	<header class="navbar navbar-toggleable-md navbar-dark bg-primary bg-faded"><a class="navbar-brand" href="#">LetsConnect</a>
+		<nav class="container w-100">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">LetsConnect</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+				</ul>
 			</div>
+		</nav>
+	</header>
+	<div id="myhead">
+		<!-- add font and change color -->
+		<h2>LETS CONNECT</h2>
+	</div>
+		<div id="signin">
+			<form  action ="#" class="container">
+		        <h3 id="Text">Sign Up here </h3><br>
+		        <label id="Text" for = "name"><b> Name :</b></label>
+		        <input id="myinput" type = "text" name="name"><br><br>
+		        <label id="Text" for = "username"><b> Username:</b></label>
+		        <input id="myinput" type ="text" name="username"><br><br>
+		        <label id="Text" for ="email"><b> email :</b></label>
+		        <input id="myinput" type ="email" name "email"><br><br>
+		        <label id="Text" for = "pwd" ><b> password:</b></label>
+		        <input id="myinput" type ="password" name="pwd"><br><br>
+		        <label id="Text" for "pwd"><b> confirm password:</b></label>
+		        <input id="myinput" type ="password" name="pwd"><br><br>
+		        <button type="submit" class="btn btn-primary"> Submit </button><br>
+			</form>
 		</div>
-	<!-- </div> -->
+	</div>
 </body>
 </html>
