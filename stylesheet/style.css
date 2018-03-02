@@ -9,34 +9,16 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-		}
-/*adjusting the nav bar*/
-#vertical{ 
-            position: fixed;
-            height: 100%;
-            overflow: auto;
-            display: block;
-         }
+        }
+        /* the logo color */
+
 #brand{ color: white;
 }
-#navba{ width:100px;
-        background-color: grey;
-        list-style-type: none;
-
+/* dashboard background */
+#dash{background-color: grey;
 }
-/*resizes the jumbotron*/
-#resize{ height: 100px;}
-/*for the container/area below the jumbotron*
-#BackgroundColor{ background-color: grey;}
- /*for the index page background picture to overide bootstap*/
-#ground {background-image:url(../static/images.jpg);
-         background-size: cover;
-         background-repeat: no-repeat;
-         background-position: center;
-         margin: 0;
-         height: 100%;
-        
-		}
+
+
 /*for the sign in form;the color was too dull */
 #Form{color: white;}
 /*the remember me checkbox was too dull*/
@@ -54,8 +36,8 @@
     width:80%;
     height:20px;
      }
-
-#bodycolor{background-color: grey;
+ /* backgroundcolor */
+#bodycolor{background-color:burlywood;
 }
 /* for the buttons in sign in */
 #button{
@@ -64,4 +46,27 @@
     font-size: 16px;
 }
 /* styling the heading */
-#myhead{ text-align: center;}
+#myhead{ text-align: center;
+        color:black;           
+}
+#listedit{ list-style-type: none;
+
+
+}
+
+
+/*adjusting the nav bar*/
+/* #vertical{ 
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            display: block;
+         } */
+
+#navba{ width:100px;
+        background-color: grey;
+        list-style-type: none;
+
+}
+
+

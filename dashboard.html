@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>categories business</title>
+	<title>dashboard</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width = device-width, initial-scale=1">
 	<!-- bootstrap CSS -->
@@ -11,12 +11,12 @@
 	<!-- custom CSS -->
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
 	<!-- font awesome CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 </head>
-<body id="bodycolor">
+<body id="dash">
 	<div>
-		<nav class="navbar navbar-toggleable-md navbar-light bg-secondary bg-faded"> <a class="navbar-brand" href="#">LetsConnect</a>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-secondary bg-faded"> <a class="navbar-brand" id="brand" href="#">LetsConnect</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
@@ -28,19 +28,19 @@
 			</div>
 		</nav>
 	</div><br>
-	<h2>LETS CONNECT</h2>
+	<h2 id="myhead">LETS CONNECT</h2>
 <!-- add a column and row -->
 	<div class="jumbotron">
-		<!-- <div class="container"> -->
+		<div class="container">
 			<div class="row">
 				<div class="col-xl-3">
 					<div class="well">
 						<h3>Profile</h3>
 							<ul>
-								<!-- add links -->
-								<li></li>
-								<li></li>
-								<li></li>
+								<li id="listedit" id="myhead"><a href="home.html">Home page</a></li>
+								<li id="listedit" id="myhead"><a href="#">settings</a></li>
+								<li id="listedit" id="myhead"><a href="index.html">log out</a></li>
+								<li id="listedit" id="myhead"><a href="#">delete account</a></li>
 							</ul>
 					</div>
 				</div>
@@ -51,20 +51,21 @@
 					</div>
 					<div>
 						<!-- add an image -->
-						<img src="">
+						<img src="static/load.jpg">
 					</div>
 				</div>
 				<div class="col-xl-3">
 					<div class="well">
 						<h3>contact details</h3>
 						<ul>
-							<li></li>
+							<li id="listedit">email:lisapaper.@gmail.com</li>
+							<li id="listedit" >phone number:0707981133</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	<!-- </div> -->
+	</div>
 <!-- your reviews -->
 	<div id="bodycolor">
 		<footer class="well well-md">
